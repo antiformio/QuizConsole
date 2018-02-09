@@ -70,7 +70,7 @@
     function novoJogo() {
         var randQues = Math.floor(Math.random() * questArray.length);
         questArray[randQues].quiz();
-        var res = prompt('Escolha a resposta correcta.');
+        var res = prompt('Escolha a resposta correcta. ("exit" para sair)');
 
         if (res !== 'exit') {
              /*Passamos para checkAnser a variavel keepScore que é uma
